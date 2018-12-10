@@ -10,7 +10,7 @@
 import sys
 from resources.lib.NetflixCommon import NetflixCommon
 from resources.lib.Navigation import Navigation
-
+# set character encoding to utf8 (only modification in this fork)
 reload(sys)  
 sys.setdefaultencoding('utf8')
 
