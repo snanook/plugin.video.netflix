@@ -11,6 +11,9 @@ import sys
 from resources.lib.NetflixCommon import NetflixCommon
 from resources.lib.Navigation import Navigation
 
+reload(sys)  
+sys.setdefaultencoding('utf8')
+
 # Setup plugin
 PLUGIN_HANDLE = int(sys.argv[1])
 BASE_URL = sys.argv[0]
